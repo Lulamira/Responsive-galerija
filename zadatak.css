@@ -1,0 +1,40 @@
+html{
+    width: 100%;
+}
+body{
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.container {
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+    
+    text-align: center;
+
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 50px;
+    
+}
+.box1 {
+    height: 90%;
+    width: 100%;
+    background-image: url("placeholder-image.png");
+    background-position: center;
+    background-size: cover;
+    background-color: rgb(0, 153, 255);
+    border-top-left-radius: 5%;
+    border-top-right-radius: 5%;
+}
+.box{
+    height: 144px;
+    
+}
+.div1{
+    max-width: 1440px;
+    margin: auto;
+}
